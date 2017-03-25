@@ -605,14 +605,14 @@ function optimizeAncient() {
     }
     //sort Ancients by name
     var ancientArr = [];
-    for (var k in ancient)
-        ancientArr.push(ancient[k]);
- //   ancientArr.sort(function(a, b) {
- //       var a1 = a.Name.toLowerCase();
- //       var b1 = b.Name.toLowerCase();
- //       if (a1 === b1) return 0;
- //       return (a1 > b1 ? 1 : -1);
-    });
+//    for (var k in ancient)
+//        ancientArr.push(ancient[k]);
+//    ancientArr.sort(function(a, b) {
+//        var a1 = a.Name.toLowerCase();
+//        var b1 = b.Name.toLowerCase();
+//        if (a1 === b1) return 0;
+//        return (a1 > b1 ? 1 : -1);
+ //   });
     //show data
     var tb = document.getElementById("anctable");
     tb.rows[1].cells[0].innerHTML = "Hero Souls";
