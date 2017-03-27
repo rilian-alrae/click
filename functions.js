@@ -652,6 +652,7 @@ function optimizeAncient() {
             tb.rows[i].style.display = "table-row";
         i++;
     }
+	$("#asave").val(autoLevelAncient());
 }
 
 function showBossRaidData() {
